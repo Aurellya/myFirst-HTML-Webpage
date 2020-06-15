@@ -1,0 +1,252 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="description" content="This website displays structured content">
+	<meta name="author" content="Aurellya">
+	<meta name="keywords" content="HTML, Tutorial, Website">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="refresh" content="2">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<title>My First Web</title>
+	<style>
+		.top {
+			position:relative;
+			background-color:#ffffff;
+			height:68px;
+			padding-top:20px;
+			padding-left: 35px;
+			line-height:50px;
+			overflow:hidden;
+			z-index:2;
+		}
+
+		.w3schools-logo{
+			font-family:fontawesome;
+			text-decoration:none;
+			line-height:1;
+			-webkit-font-smoothing:antialiased;
+			-moz-osx-font-smoothing:grayscale;
+			font-size:37px;
+			letter-spacing:3px;
+			color:#555555;
+			display:block;
+			position:absolute;
+			top:17px;
+		}
+
+		.w3schools-logo .dotcom {color:#4CAF50}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0px 0px 0px 18px;
+			background-color: #555555;
+			overflow: auto;
+			width: 100%;
+  			height: 42px;
+		}
+
+		li{
+			float: left;
+		}
+
+		li a {
+		  	display: block;
+		  	color: white;
+		  	text-align: center;
+		  	padding: 10px 16px;
+		 	text-decoration: none;
+		}
+
+		li a.active {
+		  	background-color: #333;
+		  	color: #000000;
+		}
+
+		li a:hover:not(.active) {
+		  	background-color: #4CAF50;
+		  	color: #000000;
+		} 
+
+		div.sticky {
+			position: -webkit-sticky;
+  			position: sticky;
+  			top: 0;
+  		}
+
+		div.sticky2 {
+			position: -webkit-sticky;
+  			position: sticky;
+  			top: 42px;
+		}
+
+		.second-ul{
+			list-style: none;
+			margin: 0;
+			padding: 23px 0px 150px 0px;
+			width: 17%;
+			height: 100%;
+			background-color:#f1f1f1;
+			overflow: auto;
+			position: static;
+			display: flex;
+			flex-direction: column;
+			float: left;
+		}
+
+		.second-li{
+			width: 100%;
+			height: 30px;
+			padding:3px 0px 30px 20px;
+		}
+
+		.second-li a{
+		  	color: black;
+		  	text-align: left;
+		  	padding: 10px 16px;
+		 	text-decoration: none;
+		}
+
+		.second-li a.active {
+  			background-color: #4CAF50;
+  			color: white;
+		}
+
+		.second-li a:hover:not(.active) {
+  			background-color: #555;
+  			color: white;
+		}
+
+		.second-li-a{
+			color: black;
+			text-align: left;
+		  	color: black;
+		 	text-decoration: none;
+		}
+		
+		.info{
+			margin-left: 25%;
+			margin-right: 6%;
+			margin-top: 3%;
+			position: static;
+			top: 100px;
+			overflow: auto;
+		}
+
+		/*Footer*/
+		footer {
+			padding: 0;
+			margin-left: 17%;
+			opacity: 0.5;
+			font-size: 10px;
+  			color: #555555;
+  			background-color: #F0F0F0;
+  			position: relative;
+  			float: right;
+  			width: 83%;
+		}
+
+	</style>
+</head>
+
+<body>
+	<header>
+
+		<!-- Header Website -->
+		<div class='w3-container top'>
+			<a class='w3schools-logo notranslate' href='#'><b>HowToProgram</b><span class='dotcom'>.com</span></a>
+			<div class='w3-right w3-hide-small w3-wide toptext' style="font-family: 'Segoe UI', Arial,sans-serif"> THE WORLD'S LARGEST DEVELOPER SITE &nbsp</div>
+		</div>
+
+	</header>
+
+
+	<!-- Navigation Bar -->
+	<!--Top NavBar-->
+	<div class='sticky'>
+		<ul>
+			<li><a href='#' title='Home'><b>HOME</b></a></li>
+			<li><a href='#' title='News'><b>NEWS</b></a></li>
+			<li><a href='#' title='Courses'><b>COURSES</b></a></li>
+			<li><a href='#' title='Contact'><b>CONTACT</b></a></li>
+			<li><a href='#' title='About'><b>ABOUT</b></a></li>
+		</ul>
+	</div>
+
+
+
+
+	<div class="sticky2">
+		<ul class='second-ul'>
+			<span style="font-size: 17px; padding-left: 34px; color: #3c3c3c"><b>TESTING</b></span> 
+			<li class='second-li'><a class='second-li-a' href='#' title='Home'>Home</a></li>
+			<li class='second-li'><a class='second-li-a' href='#' title='News'>News</a></li>
+			<li class='second-li'><a class='second-li-a' href='#' title='Contact'>Contact</a></li>
+			<li class='second-li'><a class='second-li-a' href='#' title='About'>About</a></li>
+
+			<br/>
+
+			<span style="font-size: 17px; padding-left: 34px; color: #3c3c3c"><b>TESTING2</b></span>
+			<li class='second-li'><a class='second-li-a' href='#' title='Home'>Home</a></li>
+			<li class='second-li'><a class='second-li-a' href='#' title='News'>News</a></li>
+			<li class='second-li'><a class='second-li-a' href='#' title='Contact'>Contact</a></li>
+			<li class='second-li'><a class='second-li-a' href='#' title='About'>About</a></li>
+
+			<br/>
+
+			<span style="font-size: 17px; padding-left: 34px; color: #3c3c3c"><b>TESTING3</b></span>
+			<li class='second-li'><a class='second-li-a' href='#' title='Home'>Home</a></li>
+			<li class='second-li'><a class='second-li-a' href='#' title='News'>News</a></li>
+			<li class='second-li'><a class='second-li-a' href='#' title='Contact'>Contact</a></li>
+			<li class='second-li'><a class='second-li-a' href='#' title='About'>About</a></li>
+
+			<br/>
+
+			<span style="font-size: 17px; padding-left: 34px; color: #3c3c3c"><b>TESTING4</b></span>
+			<li class='second-li'><a class='second-li-a' href='#' title='Home'>Home</a></li>
+			<li class='second-li'><a class='second-li-a' href='#' title='News'>News</a></li>
+			<li class='second-li'><a class='second-li-a' href='#' title='Contact'>Contact</a></li>
+			<li class='second-li'><a class='second-li-a' href='#' title='About'>About</a></li>
+
+			<br/>
+
+			<span style="font-size: 17px; padding-left: 34px; color: #3c3c3c"><b>TESTING5</b></span>
+			<li class='second-li'><a class='second-li-a' href='#' title='Home'>Home</a></li>
+			<li class='second-li'><a class='second-li-a' href='#' title='News'>News</a></li>
+			<li class='second-li'><a class='second-li-a' href='#' title='Contact'>Contact</a></li>
+			<li class='second-li'><a class='second-li-a' href='#' title='About'>About</a></li>
+		</ul>
+	</div> 
+
+	<main>
+		<div class="info">
+			<br />
+			<img src="https://www.sciencemag.org/sites/default/files/styles/inline__699w__no_aspect/public/dogs_1280p_0.jpg?itok=_Ch9dkfK" alt="dog">
+			<p>This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page.</p>
+			<br/>
+			<p>This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page.</p>
+			<br/>
+			<p>This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page.</p>
+			<br/>
+			<p>This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page.</p>
+			<br/>
+			<p>This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page.</p>
+			<br/>
+			<p>This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page. This is just a testing page.</p>
+			<br/>
+		</div>
+
+
+		<footer>
+		<p style= text-align:right;><b>&copy; 2019 Monday Times. All rights reserved. &nbsp &nbsp</b></p>
+		</footer>
+	</main>
+
+</body>
+
+</html>
